@@ -1,0 +1,19 @@
+[project]
+name = "langchain-agentic-systems"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ömer Yaslıtaş", email = "omer.yaslitas@metu.edu.tr" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "nbstripout>=0.9.1",
+]
+
+[project.scripts]
+langchain-agentic-systems = "langchain_agentic_systems:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
